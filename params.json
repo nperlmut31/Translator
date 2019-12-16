@@ -1,0 +1,19 @@
+{
+  "embedding_dim": 400,
+  "encoder_state_size":  300,
+  "D": 10,
+  "lr":  0.001,
+  "batch_size": 5,
+  "dropout": 0.4,
+  "epochs": 100,
+  "beam_size":  15,
+  "cuda": 0,
+  "load_corpus": 1,
+  "num_workers":0,
+  "train_index_range": [1000,1005],
+  "test_index_range": [0,0],
+  "run_tests": 0,
+  "trainingBLEU": 1,
+  "use_feedback": 1,
+  "use_attention" : 1
+}
